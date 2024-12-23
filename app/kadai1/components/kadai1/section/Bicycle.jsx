@@ -32,7 +32,7 @@ export const Bicycle = () => {
     return (
         <div className='pt-[100px]' id='bicycle'>
             <Title>Bicycle</Title>
-            <div className='container-layout flex flex-col sm:flex-row justify-between pt-[60px] pb-24 text-center'>
+            <div className='container-layout flex flex-col 600:flex-row justify-between pt-[60px] pb-24 text-center'>
                 {bicycles.map((bicycle, index) => (
                     <Link key={bicycle.id} href="https://www.youtube.com/" className='group block' rel="noopener noreferrer" target="_blank">
                         <motion.div
