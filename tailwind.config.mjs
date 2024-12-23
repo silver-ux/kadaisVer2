@@ -7,11 +7,13 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        'noto': "Noto Sans JP",
       },
-    },
+      screens: {
+        '600': '600px',
+      }
+    }
   },
   plugins: [],
 };
