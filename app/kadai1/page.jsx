@@ -1,9 +1,9 @@
 import React from 'react'
-import { Header } from './components/kadai1/section/Header';
-import { Main } from './components/kadai1/section/Main';
-import { About } from './components/kadai1/section/About';
-import { Bicycle } from './components/kadai1/section/Bicycle';
-import { Footer } from './components/kadai1/section/Footer';
+import { Header } from './components/section/Header';
+import { Main } from './components/section/Main';
+import { About } from './components/section/About';
+import { Bicycle } from './components/section/Bicycle';
+import { Footer } from './components/section/Footer';
 
 const page = () => {
     return (

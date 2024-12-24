@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .recipe-list{
+        @apply border border-[#2B2A27] py-[21px] px-[60px] inline-block;
+    }
+    .anchor-underline{
+        @apply underline underline-offset-4;
+    }
+}
