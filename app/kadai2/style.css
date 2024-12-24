@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .container-layout {
+        @apply mx-auto;
+        @screen sm{
+            max-width:600px;
+        }
+    }
+}
+
+@layer base{
+    body{
+        @apply bg-[#F4F9FF];
+    }
+
+    li{
+        @apply list-decimal mb-5;
+    }
+}
+
+
+dl{
+    font-size: 14px;
+    border-top: solid 1px #dedede;
+    border-bottom: solid 1px #dedede;
+}
+
+dt{
+    width: 25%;
+}
+dd{
+    width: 75%;
+}

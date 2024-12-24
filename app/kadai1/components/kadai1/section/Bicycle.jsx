@@ -36,7 +36,7 @@ export const Bicycle = () => {
                 {bicycles.map((bicycle, index) => (
                     <Link key={bicycle.id} href="https://www.youtube.com/" className='group block' rel="noopener noreferrer" target="_blank">
                         <motion.div
-                            initial={{ translateY: 30, opacity: 0 }}
+                            initial={{ translateY: 50, opacity: 0 }}
                             whileInView={{ translateY: 0, opacity: 1 }}
                             transition={{ duration: 1, delay: 0.25 * index, ease: "easeInOut" }}
                             viewport={{ once: true }}
