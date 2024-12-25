@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", sans-serif;
+    }
+    dt{
+        width: 30%;
+        border-bottom: 1px dotted #CCCCCC;
+        padding: 6px 0;
+    }
+
+    dd{
+        text-align: right;
+        width: 70%;
+        border-bottom: 1px dotted #CCCCCC;
+        padding: 6px 0;
+    }
+    ol li{
+        padding: 6px 0;
+        list-style: decimal;
+        margin-left: 20px;
+        border-bottom: 1px dotted #CCCCCC;
+    }
+}
+
+@layer components{
+    .container-layout{
+        @apply mx-auto px-[5%];
+    }
+}

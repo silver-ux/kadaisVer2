@@ -10,7 +10,7 @@ export const Main = () => {
                 alt='mainvisual'
                 width={1920}
                 height={1080}
-                style={{ width: '100%', height: '100vh', objectFit: 'cover' }}
+                style={{ width: '100%', height: '100vh', objectFit: 'cover', objectPosition: 'center top' }}
             />
         </div>
     )
